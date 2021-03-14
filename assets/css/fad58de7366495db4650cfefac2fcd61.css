@@ -1,0 +1,121 @@
+:root {
+  --main_blue: DodgerBlue;
+  --text_color: rgba(54,54,54,1);
+  --text_color_light: rgba(54,54,54,0.75);
+}
+body {
+  font-family:"Myriad Pro","Gill Sans","Gill Sans MT",Calibri,sans-serif;
+  color: var(--text_color);
+  background: #FBFBFB;
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+h1 {
+  font-size: 75px;
+  margin: 0;
+}
+
+input, button {
+  background-color:#FFFFFF;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 10px;
+  border-color:#4D4D4D;
+  font-size: 20px;
+  text-align: center;
+}
+
+.green, .yellow, .red, .blue {
+  color: white;
+}
+
+.green		{background-color:#23B078; border-color:#23B078;}
+.yellow		{background-color:#D1D143; border-color:#D1D143;}
+.red		  {background-color:#CF5F5F; border-color:#CF5F5F;}
+.blue     {background-color:#5CA7F2; border-color:#5CA7F2;}
+
+.inp1           {width:20%;}
+.inp2,.inp5     {width:5%;}
+.inp3,.inp4     {width:20%;}
+
+
+.content-box a:hover {
+  color: var(--text_color_light);
+}
+
+.content-box a {
+  color: var(--text_color);
+  text-decoration: underline;
+}
+
+.content-box {
+  min-width: 750px;
+}
+
+.footer a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer a:active {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: var(--text_color);
+  text-align: left;
+  padding-left: 25px;
+}
+
+.footer_element {
+  position: relative;
+  bottom: 6px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.msg {
+  padding: 10px;
+}
+
+.optional {
+  background-color: rgba(99,99,99,0.1);
+  background-color: rgba(99,99,99,0.1);
+  border-radius: 10px;
+  border-width: 3px;
+  margin: 20px 3% 20px 3%;
+  padding: 10px;
+}
+.form_box {
+  font-size: 150%;
+  background-color: white;
+  padding: 0px 50px 25px 50px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: var(--text_color);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.input_field {
+  margin: 0;
+  padding: 0;
+}
